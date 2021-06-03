@@ -64,13 +64,13 @@ const DATA = [
   },
 ];
 
-// Task 2 
-// use this api to fetch the data 
-
 const ApiTesting = () => {
   const [posts, setPosts] = useState(DATA);
+
+  //Use methods to fetch data here
+
   const renderPost = posts.map((post) => (
-    <div className="article">
+    <div className="article" key={post.id}>
       <h1 className="article__title">{post.title}</h1>
       <p className="article__excerpt">{post.body}</p>
     </div>

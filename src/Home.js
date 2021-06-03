@@ -7,6 +7,7 @@ const Home = () => {
     //Write Code Here
   };
   const removeFriend = (e) => {
+    // Remove Friend
     console.log(e, "is Clicked");
   };
   return (

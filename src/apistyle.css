@@ -35,8 +35,8 @@ body {
     }
   }
   
-  /* Article (Component) */
-  .article {
+  /* post (Component) */
+  .post {
     background: #FFF;
     margin: 0 0 20px;
     padding: 20px;
@@ -45,15 +45,15 @@ body {
     cursor: pointer;
     transition: 0.3s ease;
   }
-  .article:hover {
+  .post:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  .article:active {
+  .post:active {
     box-shadow: none;
     transform-origin: center;
     transform: scale(0.98);
   }
-  .article__category {
+  .post__category {
     display: inline-block;
     padding: 8px 10px;
     margin: 0 0 10px;
@@ -63,12 +63,12 @@ body {
     letter-spacing: 0.075rem;
     text-transform: uppercase;
   }
-  .article__excerpt {
+  .post__excerpt {
     color: #666;
     line-height: 1.5rem;
     font-size: 0.875rem;
   }
-  .article__title {
+  .post__title {
     margin: 0 0 10px;
     color: #444;
     font-size: 1.25rem;

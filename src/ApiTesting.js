@@ -70,9 +70,9 @@ const ApiTesting = () => {
   //Use methods to fetch data here
 
   const renderPost = posts.map((post) => (
-    <div className="article" key={post.id}>
-      <h1 className="article__title">{post.title}</h1>
-      <p className="article__excerpt">{post.body}</p>
+    <div className="post" key={post.id}>
+      <h1 className="post__title">{post.title}</h1>
+      <p className="post__excerpt">{post.body}</p>
     </div>
   ));
   return (

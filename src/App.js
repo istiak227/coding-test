@@ -5,18 +5,20 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 
 // Task 1 - Home
-// Write Method/State/ or use Library To Capture The Input From The field
-// Put the Input, and Update the Friend's Lists.
+// Write a Method/State/ or use Library To Capture The Input From The field
+// Put the Input, and Update the Friend's Lists State.
 // Rember to Keep The Initial Friends On The List
 // Bonus: Remove a friend from the list.
 
 // Task 2 - ApiTesting
 // use this api to fetch the data https://jsonplaceholder.typicode.com/posts
+// Initially the component will display 5 Posts
+// Add a load more button to load 5 more Posts.  
 
-// Task 3 - ArticleDetails (need to create yourself)
-// Create a Article Details Component
-// Route To Article Details using ID, send props Article Detail Component
-// Render Article Details Compoent
+// Task 3 - PostDetails (need to create yourself)
+// Create a Post Details Component
+// Route To Post Details using ID, send props Post Detail Component
+// Render Post Details Compoent
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
             <Route exact path="/ApiTesting">
               <ApiTesting />
             </Route>
+            {/* Add a Route for Post Details */}
           </Switch>
         </div>
       </div>
